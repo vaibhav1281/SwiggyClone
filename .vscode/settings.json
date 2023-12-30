@@ -1,0 +1,7 @@
+{
+    "workbench.localHistory.enabled": false,
+    "workbench.editor.historyBasedLanguageDetection": false,
+    "gitlens.views.fileHistory.avatars": false,
+    "gitlens.views.fileHistory.pullRequests.enabled": false,
+    "gitlens.views.fileHistory.pullRequests.showForCommits": false
+}
