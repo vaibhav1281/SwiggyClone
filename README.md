@@ -5,7 +5,15 @@
 </video>
 
 
- To install the necessary dependencies for a React project using npm, follow these steps:
+
+https://github.com/vaibhav1281/SwiggyClone/assets/93854530/363b58a2-c3be-41f8-af8f-f4d689730f1c
+
+
+
+ To install the necessary depende
+
+
+ncies for a React project using npm, follow these steps:
 
 1. Open your terminal or command prompt and navigate to the root directory of your React project.
 
