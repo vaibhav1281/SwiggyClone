@@ -9,7 +9,7 @@ const Body = () =>{
     
     return (
         <div >
-            {/* <BestOffers/> */}
+            <BestOffers/>
             <WhatsOnMind/>
             <TopRestaurant/>
             <Restaurants/>

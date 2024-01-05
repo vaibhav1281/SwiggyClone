@@ -22,13 +22,13 @@ const useCarousel = () => {
         setImageIds(info.map((item) => item.imageId));
         
 
-        const info1 = json?.data?.cards[0]?.card?.card?.imageGridCards?.info || []
+        const info1 = json?.data?.cards[1]?.card?.card?.imageGridCards?.info || []
         setImageIds1(info1.map((item) => item.imageId));
 
         const card = json?.data?.cards[2]?.card?.card?.header || []
         setTitle(card);
 
-        const topRestaurentInfo = json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants || []
+        const topRestaurentInfo = json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants || []
         setRestaurantInfo(topRestaurentInfo);
     }
 

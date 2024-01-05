@@ -14,7 +14,7 @@ const userRestaurant = () => {
         const API = isMobile ? SWIGGY_MAPI : SWIGGY_API;
         const data = await fetch(API);
         const json = await data.json();
-        const ResListDet = json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants || [];    
+        const ResListDet = json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants || [];    
         setResList(ResListDet);
     }
 
