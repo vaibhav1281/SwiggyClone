@@ -1,10 +1,8 @@
 # Demo
 
-
-
 https://github.com/vaibhav1281/SwiggyClone/assets/93854530/363b58a2-c3be-41f8-af8f-f4d689730f1c
 
-
+https://github.com/vaibhav1281/SwiggyClone/assets/93854530/1c954dea-65ed-4688-9afe-091a7c6c6793
 
  To install the necessary depende
 
