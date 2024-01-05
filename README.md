@@ -1,5 +1,8 @@
 # Demo
-<video src='./src/assets/Swiggy _ Vaibhav Saroj.mp4'/>
+
+<video>
+    <source src="./src/assets/Swiggy _ Vaibhav Saroj.mp4"/>
+</video>
 
 
  To install the necessary dependencies for a React project using npm, follow these steps:
