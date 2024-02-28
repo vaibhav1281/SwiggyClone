@@ -1,7 +1,5 @@
 # Demo
 
-
-
 https://github.com/vaibhav1281/SwiggyClone/assets/93854530/363b58a2-c3be-41f8-af8f-f4d689730f1c
 
 
