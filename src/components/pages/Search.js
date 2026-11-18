@@ -26,7 +26,7 @@ const Search = () => {
     }, [])
 
     const getSearchItemFoods = async () => {
-        const data = await fetch('https://corsproxy.org/?https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Flanding%2FPRE_SEARCH%3Flat%3D12.9351929%26lng%3D77.62448069999999');
+        const data = await fetch('https://corsproxy.io/?key=webdemo1&url=https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Flanding%2FPRE_SEARCH%3Flat%3D28.7040592%26lng%3D77.10249019999999');
         const json = await data.json();
         setFood(json?.data?.cards[1]?.card?.card?.imageGridCards?.info)
     }
@@ -44,7 +44,8 @@ const Search = () => {
     }, [searchText])
 
     const getSearchSuggestions = async () => {
-        const data = await fetch(`https://corsproxy.org/?https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Fsearch%2Fsuggest%3Flat%3D12.9351929%26lng%3D77.62448069999999%26str%3D${searchText}%26trackingId`);
+       
+        const data = await fetch(`https://corsproxy.io/?key=webdemo1&url=https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Fsearch%2Fsuggest%3Flat%3D12.9351929%26lng%3D77.62448069999999%26str%3D${searchText}%26trackingId`);
 
         const json = await data.json();
         setSuggestions(json?.data?.suggestions)
