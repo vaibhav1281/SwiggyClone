@@ -34,7 +34,7 @@ const CarouselShimmerUI = () => {
                     />
                 )}
                 {showImage === 'second' && (
-                    <div className='text-white text-xl font-bold mt-6'>Welcome To Vaibhav's Swiggy CLone 😊</div>
+                    <div className='text-white text-xl font-bold mt-6'>Welcome To Abha's Swiggy CLone 😊</div>
                 )}
             </div>
             {/* <div className='text-white text-xl font-bold mt-6'>Looking for great food near you...</div> */}

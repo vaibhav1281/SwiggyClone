@@ -38,9 +38,9 @@ const Footer = () => {
                                 </span>
                                 <span className="text-2xl font-extrabold">Swiggy Clone</span>
                             </div>
-                            <Link to={"https://www.linkedin.com/in/vaibhav-saroj-b456b0221/"} 
+                            <Link to={"https://in.linkedin.com/in/abha-s-26917942b"} 
                                 className="flex items-center gap-2 text-ms font-semibold text-[#FFFFFF99]">
-                                <div>© 2023 Vaibhav Saroj</div>
+                                <div>© 2023 Abha Sonkar</div>
                                 <div className="">
                                     <FaLinkedin />
                                 </div>
